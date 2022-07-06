@@ -76,6 +76,9 @@ button {
   color: #fff;
   margin-top: 2rem;
   transition: 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 0.9rem;
 }
 
 .btn-submit:hover {
