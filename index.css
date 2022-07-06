@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1,
+h2 {
+  color: #fff;
+}
+
+p {
+  line-height: 1.8;
+  color: hsl(217, 12%, 63%);
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul,
+li,
+button {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+button {
+  user-select: none;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: hsl(213, 19%, 18%);
+  width: 3rem;
+  height: 3rem;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  padding-top: 0.3rem;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.btn:focus {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.btn-submit {
+  background-color: hsl(25, 97%, 53%);
+  padding: 0.625rem 2rem 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  margin-top: 2rem;
+  transition: 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+.container,
+.thank-you {
+  background-image: linear-gradient(
+    to bottom,
+    hsl(212, 18%, 14%),
+    hsl(220, 16%, 11%)
+  );
+  max-width: 400px;
+  padding: 2rem 1.5rem;
+  border-radius: 0.625rem;
+}
+
+.container img {
+  padding: 0.8rem;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+  margin-bottom: 2rem;
+}
+
+.container h1,
+.thank-you h2 {
+  margin-bottom: 1rem;
+}
+
+.container p,
+.thank-you p {
+  margin-bottom: 1rem;
+}
+
+.container ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container ul li {
+  margin: 0.5rem;
+}
+
+.thank-you {
+  text-align: center;
+}
+
+.thank-you.hidden {
+  display: none;
+}
+
+.thank-you h2 {
+  margin-top: 2rem;
+}
+
+.thank-you img {
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+p.gray {
+  display: inline-block;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+  padding: 0.3rem 1rem 0;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.attribution a {
+  color: hsl(228, 47%, 61%);
+}
