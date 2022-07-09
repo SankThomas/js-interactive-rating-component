@@ -27,6 +27,13 @@ p {
   color: hsl(217, 12%, 63%);
 }
 
+p.disclaimer {
+  padding: 0 1.5rem;
+  max-width: 400px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
 img {
   max-width: 100%;
 }
